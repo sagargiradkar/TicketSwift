@@ -13,6 +13,7 @@ body {
     background: #fff;
     position: relative;
     font-family: roboto, sans-serif;
+
 }
 
 .navbar {
@@ -381,6 +382,7 @@ ul.navitem1 li {
 
 .wrapper {
     display: block;
+    overflow-x: hidden;
 }
 
 /***** Sidebar *****/
@@ -679,4 +681,16 @@ div .text {
     height: 82%;
     width: 428px;
     /* Could be more or less, depending on screen size */
+}
+
+
+
+/* footer */
+
+
+.footer{
+
+    text-align: center;
+    color: rgb(100, 100, 111);
+    background:rgb(51,51,56);
 }
