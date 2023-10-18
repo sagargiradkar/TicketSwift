@@ -101,6 +101,31 @@ body {
     background-color: #f85b78;
     border: #f85b78;
 }
+.login {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    margin-right: 9px;
+    border-radius: 2px;
+    font-size: 12px;
+    top: 1px;
+    color: #fff;
+    background-color: #f85b78;
+    border:#f85b78 ;
+}
+
+.profile{
+    position: relative;
+    width: 40px;
+    height: 25px;
+    margin-right: 9px;
+    border-radius: 4px;
+    font-size: 12px;
+    top: 10px;
+    color: #fff;
+    background-color: #222539;
+    border:  #222539;
+}
 
 a.btn-customized {
     position: relative;

@@ -15,7 +15,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Javascript -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
@@ -49,7 +49,7 @@
             <nav class="sidesubnavbar">
                 <img src="img/rewards.webp">
                 <p>Unlock special offers & great benifits</p>
-                <button class="login" onclick="document.getElementById('id01').style.display='block'">Login / Register</button>
+                <button class="login" onclick="document.getElementById('id01').style.display='block'">View Profile</button>
             </nav>
 
             <a href="#">
@@ -144,8 +144,8 @@
                 </div>
                 <div class="right-container">
                     <a href="#" class="location">Pune<ion-icon name="caret-down-sharp"></ion-icon></a>
-                    <button class="signin"
-                        onclick="document.getElementById('id01').style.display='block'">Sign In</button>
+                    <button class="profile"
+                        onclick="document.getElementById('id01').style.display='block'"> <i class="fa-solid fa-user"></i></button>
 
                     <div id="id01" class="modal">
 
@@ -159,19 +159,19 @@
                             </div>
 
                             <div class="container">
-                                <a href="./Profile.html" class="button">
+                                <a href="#" class="button">
                                     <div class="logo">
                                         <img src="img/googlelogo.svg">
                                     </div>
                                     <div class="text">Continue with Google</div>
                                 </a>
-                                <a href="./Profile.html" class="button">
+                                <a href="#" class="button">
                                     <div class="logo">
                                         <ion-icon name="mail-outline" style="font-size: 22px;"></ion-icon>
                                     </div>
                                     <div class="text">Continue with Email</div>
                                 </a>
-                                <a href="./Profile.html" class="button">
+                                <a href="#" class="button">
                                     <div class="logo">
                                         <ion-icon name="logo-apple" style="font-size: 22px;"></ion-icon>
                                     </div>
@@ -185,10 +185,8 @@
                                 <div class="code">+91</div>
                                 <input id="mobileNo" type="tel" pattern="[0-9]*"
                                     placeholder="Continue with mobile number" class="mobileNo">
-                                    <a href="./Profile.html"><button class="login" > Log In </button></a>
-                                    
                             </div>
-                           
+                            
                             <p> Don't have an account ? <a href="registration.html">Sign Up</a> 
                             </p>
 
