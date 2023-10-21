@@ -1,0 +1,131 @@
+body nav {
+    overflow: hidden;
+}
+
+.paymentpage {
+    display: flex;
+}
+
+.payment {
+    background-color: #f0efeb;
+}
+
+.options {
+    margin: 3rem 4rem 2.7rem 4rem;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: #6b6868;
+    font-family: 'Alike', serif;
+    letter-spacing: 0.2rem;
+}
+
+.lists {
+    margin-top: 1rem;
+    border: 2px solid #b4aeae;
+    border-radius: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+h5 {
+    margin-left: 2rem;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+#heading2 {
+    margin-top: 3rem;
+}
+
+.inputs {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0rem;
+}
+
+#n1 {
+    font-size: 1.3rem;
+    width: 18.3rem;
+    height: 2.9rem;
+    border-radius: 0.3rem;
+    border: 2px solid green;
+}
+
+.button1 {
+    display: inline-block;
+    border-radius: 0.3rem;
+    background-color: rgb(248, 68, 100);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.7rem;
+    width: 6.4rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button2 {
+    background-color: rgb(248, 68, 100);
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 9rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.submit{
+    margin-top: 2.3rem;
+    text-align: center;
+}
+
+.poster{
+    margin-left: 0.2rem;
+    border: 6px solid red;
+    width: 63.08rem;
+    height: 38rem;
+    overflow: hidden;
+}
+
+
+
