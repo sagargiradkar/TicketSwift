@@ -4,7 +4,7 @@
     font-size: 50px;
 }
 .desc{
-    font-family:  "Times New Roman", Times, serif;
+    font: italic  ,Arial;
     font-style: italic;
     margin-bottom: 50px;
     opacity: 0.5;
