@@ -20,10 +20,7 @@
 .Q{
     margin-left: 30px;
 }
-.nine{
 
-    justify-content: center;
-}
 .but{
     background-color: rgb(248, 68, 100);
     border-radius: 0.3rem;
@@ -32,12 +29,10 @@
     padding: 1rem 3rem;
     transition-duration: 0.4s;
     cursor: pointer;
+    align-items: center;
 }
 button:hover{
     background-color: white;
     color: black;
     border: 1px solid black;
-}
-button:active{
-    background-color:rgb(12, 69, 91) ;
 }
