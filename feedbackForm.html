@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TicketSwift</title>
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/feedbackForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Javascript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+
+            <nav class="sidenavbar">
+                <h1>Hey!</h1>
+            </nav>
+
+            <nav class="sidesubnavbar">
+                <img src="img/rewards.webp">
+                <p>Unlock special offers & great benifits</p>
+               <a href="./ProfilePage.html"><button class="login">View Profile</button></a> 
+            </nav>
+
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                </div>
+                <div class="text">Notifications</div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+                <div class="text">Purchase History<br>
+                    <div class="subtext">View all your bookings & Purchases</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="tv-outline"></ion-icon>
+                </div>
+                <div class="text">Stream Library<br>
+                    <div class="subtext">Rented & Purchased Movies</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </div>
+                <div class="text">Help & Support<br>
+                    <div class="subtext">View commonly asked queries and Chat</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+                <div class="text">Accounts & Settings<br>
+                    <div class="subtext">Location, Payments, Addresses & More</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="gift-outline"></ion-icon>
+                </div>
+                <div class="text">Rewards<br>
+                    <div class="subtext">View your rewards & unlock new ones</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <div class="text">BookASmile</div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+
+        </nav>
+        <!-- End sidebar -->
+
+        <!-- Dark overlay -->
+        <div class="overlay"></div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <nav class="navbar">
+                <img src="img/logo.png" class="brand-logo" alt="" />
+                <div class='input'>
+                    <ion-icon name="search"></ion-icon>
+                    <input className='search'
+                        placeholder='Search for Movies, Events, Plays, Sports, and Activities'></input>
+                </div>
+                <div class="right-container">
+                    <a href="#" class="location">Pune<ion-icon name="caret-down-sharp"></ion-icon></a>
+                    
+                    <a href="ProfilePage.html"><button class="profile"> <i class="fa-solid fa-user"></i>
+                   </button></a>
+
+                    <a href="#" class="btn-customized open-menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="subnavbar">
+                <ul class='navitem'>
+                    <li><a href='#Movies'>Home</a></li>
+                    <li><a href='#Movies'>Stream<span>NEW</span></a></li>
+                    <li><a href='#Movies'>Events</a></li>
+                    <li><a href='#Movies'>Plays</a></li>
+                    <li><a href='#Movies'>Sports</a></li>
+                    <li><a href='#Movies'>Activities</a></li>
+                    <li><a href='#Movies'>Buzz</a></li>
+                </ul>
+                <ul class='navitem1'>
+                    <li><a href='#Movies'>ListYourShow<span>NEW</span></a></li>
+                    <li><a href='#Movies'>Corporates</a></li>
+                    <li><a href='#Movies'>Offers</a></li>
+                    <li><a href='#Movies'>Gift Cards</a></li>
+                </ul>
+            </nav>
+
+          
+            <div class="feedback">
+                <div class="question">
+                    <div class="first Q"><br><br>
+                        <h2 class="heading">Tell us What you think of us...</h2> 
+                        <hr>
+                        <h3 class="desc">TicketSwift saved your day, gave you a tough time at the call centre, 
+                            didn't complete your transaction, got you the best seats....
+                             we want to know it all. Tell it like it is and help us make ticketing 
+                             a piece of cake for you, and peace of mind for us</h3>
+                             <hr>
+                        <h4>How often do you watch movies?</h4><br>
+                        <input id="frequency-onceAweek" name="frequency" type="radio" value="once a week" checked>
+                        <label for="frequency-onceAweek"><span>  Once a week</span></label> <br>
+                        <input id="frequency-onceAmonth" name="frequency" type="radio" value="once a month" >
+                        <label for="frequency-onceAmonth"><span>  Once a month</span></label><br>
+                        <input id="frequency-Morethan3timesamonth" name="frequency" type="radio" value="more than 3 times a month" >
+                        <label for="frequency-Morethan3timesamonth"><span>  More than 3 times a month</span></label> <br>
+                        <input id="frequency-LessthanonceAmonth" name="frequency" type="radio" value="less than once a month" >
+                        <label for="frequency-LessthanonceAmonth"><span>  Less than once a month</span></label> <br>
+                    </div><br><br>
+                    <div class="second Q">
+                        <h4>How did you find booking of tickets on the website?</h4><br>
+                        <input id="way-Simple" name="way" type="radio" value="Simple" checked>
+                        <label for="way-Simple"><span>  Simple</span></label> <br>
+                        <input id="way-Difficultbutgotby" name="way" type="radio" value="Difficult, but got by">
+                        <label for="way-Difficultbutgotby"><span>  Difficult, but got by</span></label> <br>
+                        <input id="way-Complicated" name="way" type="radio" value="Complicated">
+                        <label for="way-Complicated"><span>  Complicated</span></label> <br>
+                    </div><br><br>
+                    <div class="third Q">
+                        <h4>Could you book the seat of your choice?</h4><br>
+                        <input id="seat-yes" name="seat" type="radio" value="yes" checked>
+                        <label for="seat-yes"><span>  Yes, I could</span></label> <br>
+                        <input id="seat-ask" name="seat" type="radio" value="ask">
+                        <label for="seat-ask"><span>  No, it did not ask for the option</span></label> <br>
+                        <input id="seat-error" name="seat" type="radio" value="error">
+                        <label for="seat-error"><span>  No, the page showed errors</span></label> <br>
+                    </div><br><br>
+                    <div class="forth Q">
+                       <h4> How did you find the Payment Method?</h4><br>
+                       <input id="payment-easy" name="payment" type="radio" value="easy" checked>
+                       <label for="payment-easy"><span>  Easy and Quick</span></label> <br>
+                       <input id="payment-load" name="payment" type="radio" value="load">
+                       <label for="payment-load"><span>  The page doesn't load</span></label> <br>
+                       <input id="payment-more" name="payment" type="radio" value="more">
+                       <label for="payment-more"><span>  Could do with more options</span></label> <br>
+                    </div><br><br>
+                    <div class="fifth Q">
+                        <h4> Would you transact with us in the future?</h4><br>
+                       <input id="transaction-abs" name="transaction" type="radio" value="abs" checked>
+                       <label for="transaction-abs"><span>  Yes, absolutely</span></label> <br>
+                       <input id="transaction-may" name="transaction" type="radio" value="may">
+                       <label for="transaction-may"><span>  Maybe</span></label> <br>
+                       <input id="transaction-no" name="transaction" type="radio" value="no">
+                       <label for="transaction-no"><span>  No way</span></label> <br>
+                    </div><br><br>
+                    <div class="sixth Q">
+                        <h4> Would you tell your friends about TicketSwift</h4><br>
+                       <input id="about-yes" name="about" type="radio" value="yes" checked>
+                       <label for="about-yes"><span>  Yes</span></label> <br>
+                       <input id="about-no" name="about" type="radio" value="no">
+                       <label for="about-no"><span>  No</span></label> <br>
+                    </div><br><br>
+                    <br>
+                    <div class="seven Q">
+                        <h4>How would you rate TicketSwift?</h4><br>
+                        <input id="rate-5" name="rate" type="radio" value="5" checked>
+                       <label for="rate-5"><span>  ✭✭✭✭✭</span></label> <br>
+                       <input id="rate-4" name="rate" type="radio" value="4">
+                       <label for="rate-4"><span>  ✭✭✭✭</span></label> <br>
+                       <input id="rate-3" name="rate" type="radio" value="3">
+                       <label for="rate-3"><span>  ✭✭✭</span></label> <br>
+                       <input id="rate-2" name="rate" type="radio" value="2" >
+                       <label for="rate-2"><span>  ✭✭</span></label> <br>
+                       <input id="rate-1" name="rate" type="radio" value="1">
+                       <label for="rate-1"><span>  ✭</span></label> <br>
+                    </div><br><br>
+                    <div class="eight Q">
+                        <h4>Is there anything you would like to tell us?</h4><br>
+                         <textarea name="message" id="message" placeholder="MESSAGE" cols="60" rows="8"></textarea>
+                    </div><br>
+                    <div class="nine">
+                     <button class="but">Submit</button>
+                    </div>
+                </div>
+    
+            </div>
+            
+            
+
+        </div>
+        <!-- End content -->
+
+        
+
+
+
+        <!--Footer-->
+    <div class="footer">
+        <hr>
+        <img src="./img/logo.png" alt="logo" height="70px"><br>
+        <hr>
+        <div class="facebook">
+        <a href="#"><img src="./img/social/facebook.svg" alt="" width="50px"></a>   
+        <a href="#"><img src="./img/social/square-instagram.svg" alt="" width="50px"></a>  
+        <a href="#"><img src="./img/social/twitter.svg" alt="" width="50px"></a> 
+        <a href="#"><img src="./img/social/telegram.svg" alt="" width="50px"></a> 
+        </div>
+        <hr>
+    Copyright <!-- -->2023<!-- --> © Rasika Entertainment Pvt. Ltd. All Rights Reserved.<br>
+    The content and images used on this site are copyright protected and
+     copyrights vests with the respective owners. 
+     <br>The usage of the content
+      and images on this website is intended to promote the works and no
+       endorsement of the artist shall be implied. 
+       <br>Unauthorized use is prohibited
+        and punishable by law.
+    </div>
+
+        <!-- footer end -->
+    </div>
+    <!-- End wrapper -->
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+
+  
+</body>
+
+</html>
