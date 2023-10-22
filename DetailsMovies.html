@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TicketSwift Profile Page</title>
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            div.mvimage {
+                margin-bottom: 1px;
+                padding: 50px;
+                
+            }
+            img.pimage {
+                border:4px solid black;
+                
+                
+                border-radius:15px;
+            }
+            
+            
+        </style>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="./css/ProfilePage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+
+            <nav class="sidenavbar">
+                <h1>Hey!</h1>
+            </nav>
+
+            <nav class="sidesubnavbar">
+                <img src="img/rewards.webp">
+                <p>Unlock special offers & great benifits</p>
+                <button class="login" onclick="document.getElementById('id01').style.display='block'">View
+                    Profile</button>
+            </nav>
+
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                </div>
+                <div class="text">Notifications</div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+                <div class="text">Purchase History<br>
+                    <div class="subtext">View all your bookings & Purchases</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="tv-outline"></ion-icon>
+                </div>
+                <div class="text">Stream Library<br>
+                    <div class="subtext">Rented & Purchased Movies</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </div>
+                <div class="text">Help & Support<br>
+                    <div class="subtext">View commonly asked queries and Chat</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a class="btn-disabled" href="#">
+                <div class="lefticon">
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+                <div class="text">Accounts & Settings<br>
+                    <div class="subtext">Location, Payments, Addresses & More</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="gift-outline"></ion-icon>
+                </div>
+                <div class="text">Rewards<br>
+                    <div class="subtext">View your rewards & unlock new ones</div>
+                </div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lefticon">
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <div class="text">BookASmile</div>
+                <div class="righticon">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </a>
+
+        </nav>
+        <!-- End sidebar -->
+
+        <!-- Dark overlay -->
+        <div class="overlay"></div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <nav class="navbar">
+                <img src="img/logo.png" class="brand-logo" alt="" />
+                <div class='input'>
+                    <ion-icon name="search"></ion-icon>
+                    <input className='search'
+                        placeholder='Search for Movies, Events, Plays, Sports, and Activities'></input>
+                </div>
+                <div class="right-container">
+                    <a href="#" class="location">Pune<ion-icon name="caret-down-sharp"></ion-icon></a>
+                    <button class="profile" onclick="document.getElementById('id01').style.display='block'"> <i
+                            class="fa-solid fa-user"></i></button>
+
+                    <a href="#" class="btn-customized open-menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="subnavbar">
+                <ul class='navitem'>
+                    <li><a href='./AfterLogin.html'>Home</a></li>
+                    <li><a href='#Movies'>Stream<span>NEW</span></a></li>
+                    <li><a href='#Movies'>Events</a></li>
+                    <li><a href='#Movies'>Plays</a></li>
+                    <li><a href='#Movies'>Sports</a></li>
+                    <li><a href='#Movies'>Activities</a></li>
+                    <li><a href='#Movies'>Buzz</a></li>
+                </ul>
+                <ul class='navitem1'>
+                    <li><a href='#Movies'>ListYourShow<span>NEW</span></a></li>
+                    <li><a href='#Movies'>Corporates</a></li>
+                    <li><a href='#Movies'>Offers</a></li>
+                    <li><a href='#Movies'>Gift Cards</a></li>
+                </ul>
+            </nav>
+
+            <!-- Proflie Page -->
+            	
+		
+		<section> 
+			<div class=mvimage style="background-image:linear-gradient(90deg, #1A1A1A 24.97%, #1A1A1A 38.3%,rgba(26, 26, 26, 0.0409746) 97.47%, #1A1A1A 100%),url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/mission-raniganj-et00362090-1696831881.jpg)">
+		
+			<div style="display: flex; align-items:center">
+		<img class=pimage src="./img/DetailsMovies/mr.jpg" alt="Movie Poster" padding:10px>
+		
+		<div style="margin-left: 20px;">
+            <p style="font-size:50.0pt; color:white; margin: 0;">Mission Raniganj</p>
+            <p><img src="./img/DetailsMovies/Screenshot 2023-10-19 at 00-11-28 Mission Raniganj (2023) - Movie Reviews Cast & Release Date in pune.png"><p style="font-size:25.0pt; color:white; margin: 0;">9/10</p><p style="font-size:25.0pt; color:white; margin: 0;">votes</p></p>
+            <p style="font-size:25.0pt; color:white; margin: 0;">2h 18m •
+Drama
+,
+Thriller
+• UA • 6 Oct, 2023</p>
+<p> </p>
+<p>   </p>
+	<span style='padding:50px 10px 20px 40px'>
+        <a href="./PaymentPage.html">
+<button style="background-color: #cc2151; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+        Book Tickets
+    </button></a>
+    </span>
+        </div>
+		
+		
+		</div>	
+		
+			
+		</div>
+		</div>	
+		</section>
+		
+		<div style='padding:20px'>
+		<h3>About the movie</h3>
+		<p>A Based on one of the world`s largest and most successful Coal Mine Rescue Missions - headed by Akshay kumar and his team to help save trapped miners in the coal mine-inspired by Bharat`s true hero Engineer Jaswant Singh Gill who carried out this edge of the seat rescue in Raniganj on 13th November 1989. </p>
+		<br>
+		<hr>
+		
+		</div>
+		
+		<div style='padding:0px 20px 20px 20px'>
+		<h3>Cast</h3>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:100%' src="./img/DetailsMovies/Screenshot 2023-10-18 at 23-36-08 Akshay Kumar - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:100%' src="./img/DetailsMovies/Screenshot 2023-10-18 at 23-34-44 Parineeti Chopra - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:500px' src="./img/DetailsMovies/Screenshot 2023-10-18 at 23-37-19 Dibyendu Bhattacharya - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:500px' src="./img/DetailsMovies/Screenshot 2023-10-18 at 23-38-38 Kumud Mishra - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:500px' src="./img/DetailsMovies/Screenshot 2023-10-18 at 23-39-38 Rajesh Sharma - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		<span style='padding:10px'>
+		<img style='height:200px; width:200px; border:5px solid black; border-radius:500px' src="./img/DetailsMovies//Screenshot 2023-10-18 at 23-41-43 Varun Badola - Movies Biography News Age & Photos BookMyShow.png" alt="Actor">
+		</span>
+		
+		</div>
+	
+      
+    </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <hr>
+        <img src="./img/logo.png" alt="logo" height="70px"><br>
+        <hr>
+        <div class="facebook">
+            <a href="#"><img src="./img/social/facebook.svg" alt="" width="50px"></a>
+            <a href="#"><img src="./img/social/square-instagram.svg" alt="" width="50px"></a>
+            <a href="#"><img src="./img/social/twitter.svg" alt="" width="50px"></a>
+            <a href="#"><img src="./img/social/telegram.svg" alt="" width="50px"></a>
+        </div>
+        <hr>
+        Copyright <!-- -->2023<!-- --> © Rasika Entertainment Pvt. Ltd. All Rights Reserved.<br>
+        The content and images used on this site are copyright protected and
+        copyrights vests with the respective owners.
+        <br>The usage of the content
+        and images on this website is intended to promote the works and no
+        endorsement of the artist shall be implied.
+        <br>Unauthorized use is prohibited
+        and punishable by law.
+    </div>
+
+    <!-- footer end -->
+    </div>
+    <!-- End wrapper -->
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
